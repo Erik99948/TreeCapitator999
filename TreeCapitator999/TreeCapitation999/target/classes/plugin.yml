@@ -1,0 +1,28 @@
+name: TreeCapitation999
+version: 1.0.1
+main: com.yourname.treecapitation999.TreeCapitation999
+api-version: 1.21
+description: Efficient tree cutting plugin that chops entire trees when breaking the base log
+author: YourName
+website: https://yourwebsite.com
+
+commands:
+  treecapitation:
+    description: Reloads the plugin configuration
+    usage: /treecapitation reload
+    permission: treecapitation.reload
+    aliases: [treecap]
+
+permissions:
+  treecapitation.use:
+    description: Allows using the treecapitation feature
+    default: true
+  treecapitation.reload:
+    description: Allows reloading the configuration
+    default: op
+  treecapitation.bypass.cooldown:
+    description: Bypasses any cooldown restrictions
+    default: false
+  treecapitation.instant:
+    description: Allows instant breaking of trees
+    default: false
